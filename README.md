@@ -8,6 +8,6 @@
 
     python3 train.py
     
-### Testing
+### generate
 
     python3 test.py
