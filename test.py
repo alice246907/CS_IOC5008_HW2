@@ -31,7 +31,7 @@ def test(args):
     # test
     generator.eval()
     with torch.no_grad():
-        for i in range(100):
+        for i in range(500):
             z = torch.randn(args.bs, args.z_size)
             z = torch.tensor(z).cuda()
             generated_images, _, _ = generator(z)
