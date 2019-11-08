@@ -1,0 +1,23 @@
+train:
+    bs: 128
+    imgsize: 64
+    z_size: 128
+
+    g_lr: 0.0001
+    d_lr: 0.0004
+
+    epochs: 500
+    pre_epochs: 0
+
+    data_path: ./data
+    save_img_path: ./validate_img
+    weight_path: ./weights
+
+
+test:
+    save_img_path: ./generate_img
+    weight_path: ./weights
+    epochs: 500
+    imgsize: 64
+    z_size: 128
+    bs: 9
